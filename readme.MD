@@ -1,12 +1,12 @@
-# Vibely
+# Insta World
 
-Vibely is a full-stack social media platform designed for modern, community-driven interaction. It brings together profile management, social feeds, content sharing, messaging, notifications, and moderation-friendly platform foundations in one workspace.
+Insta World is a full-stack social media platform designed for modern, community-driven interaction. It brings together profile management, social feeds, content sharing, messaging, notifications, and moderation-friendly platform foundations in one workspace.
 
 This repository is organized as a monorepo with a separate frontend and backend so each layer can evolve independently while sharing the same product vision.
 
 ## Overview
 
-Vibely is intended to support the core behaviors users expect from a complete social platform:
+Insta World is intended to support the core behaviors users expect from a complete social platform:
 
 - User authentication and account management
 - Personal profiles and editable bios
@@ -28,7 +28,7 @@ The current workspace contains the initial frontend and backend structure needed
 ## Repository Structure
 
 ```text
-Vibely Platform/
+Insta World Platform/
 ├── readme.MD
 ├── Backend/
 │   └── package.json
@@ -46,7 +46,7 @@ Vibely Platform/
 
 ## Frontend
 
-The frontend is a Vite + React application that serves as the user-facing experience for Vibely. It is the place to build:
+The frontend is a Vite + React application that serves as the user-facing experience for Insta World. It is the place to build:
 
 - Landing pages and onboarding flows
 - Authentication screens
@@ -63,7 +63,7 @@ Current frontend commands are defined in [Frontend/package.json](Frontend/packag
 
 ## Backend
 
-The backend is currently a minimal Node.js package scaffold and is ready to grow into the API layer for Vibely. Typical responsibilities for this service include:
+The backend is currently a minimal Node.js package scaffold and is ready to grow into the API layer for Insta World. Typical responsibilities for this service include:
 
 - Authentication and session handling
 - REST or GraphQL endpoints for social data
@@ -103,7 +103,7 @@ The backend folder currently contains only the package manifest. When the API la
 
 ## Environment Variables
 
-This workspace does not yet define environment variables, but a production-ready Vibely build will typically need values such as:
+This workspace does not yet define environment variables, but a production-ready Insta World build will typically need values such as:
 
 - Database connection string
 - JWT or session secret
@@ -115,7 +115,7 @@ Add a `.env` file in the relevant service folder when those values are introduce
 
 ## Development Notes
 
-- The frontend currently contains the default Vite starter content and should be replaced with Vibely-specific screens and components.
+- The frontend currently contains the default Vite starter content and should be replaced with Insta World-specific screens and components.
 - The backend is still a scaffold, so the API contract should be defined alongside the frontend data needs.
 - Keep shared naming consistent across services to avoid drift between the UI and API layers.
 
@@ -130,7 +130,7 @@ Add a `.env` file in the relevant service folder when those values are introduce
 
 ## Contributing
 
-If you are extending Vibely, keep changes focused and aligned with the product vision. Update this README whenever the setup, scripts, or architecture changes.
+If you are extending Insta World, keep changes focused and aligned with the product vision. Update this README whenever the setup, scripts, or architecture changes.
 
 ## License
 
